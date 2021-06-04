@@ -23,132 +23,134 @@ msgstr ""
 
 #: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
-msgstr ""
+msgstr "Branch niet gevonden"
 
 #: src/ui/SettingsWindow.vala:171
 msgid "Additional categories"
-msgstr ""
+msgstr "Extra categorieën"
 
 #: src/ui/TrayIcon.vala:167
 msgid "Error occured fetching news:"
-msgstr ""
+msgstr "Fout tijdens ophalen nieuws"
 
 #: src/ui/TrayIcon.vala:168
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #: src/ui/TrayIcon.vala:190
 msgid "News available!"
-msgstr ""
+msgstr "Nieuws beschikbaar"
 
 #: src/ui/TrayIcon.vala:198
 msgid "No news"
-msgstr ""
+msgstr "Geen nieuws"
 
 #. add "mark all as read" menu item
 #: src/ui/TrayIcon.vala:214
 msgid "Mark all as read"
-msgstr ""
+msgstr "Markeer alles als gelezen"
 
 #. add settings menu item
 #: src/ui/TrayIcon.vala:224 resources/ui/SettingsWindow.ui:49
 msgid "Settings"
-msgstr ""
+msgstr "Instellingen"
 
 #. add about menu item
 #: src/ui/TrayIcon.vala:236 resources/ui/AboutWindow.ui:7
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 #. add quit menu item -> save all settings and news items to disk
 #: src/ui/TrayIcon.vala:247
 msgid "Quit"
-msgstr ""
+msgstr "Afsluiten"
 
 #: resources/ui/AboutWindow.ui:64
 msgid "A Manjaro Linux accouncements notification app"
-msgstr ""
+msgstr "Een Manjaro Linux aankondigings notificatie applicatie"
+# literal translations are iffi at best
 
 #: resources/ui/AboutWindow.ui:74
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
 #: resources/ui/AboutWindow.ui:92
 msgid "Created by moson"
-msgstr ""
+msgstr "Gemaakt door moson"
 
 #: resources/ui/AboutWindow.ui:102
 msgid "Close"
-msgstr ""
+msgstr "Sluiten"
 
 #: resources/ui/SettingsWindow.ui:67
 msgid "Server URL:"
-msgstr ""
+msgstr "Server URL"
 
 #: resources/ui/SettingsWindow.ui:91
 msgid "Maximum number of articles in menu:"
-msgstr ""
+msgstr "Maximaal aantal artikelen in het menu"
 
 #: resources/ui/SettingsWindow.ui:104
 msgid "Refresh interval (in seconds):"
-msgstr ""
+msgstr "Ververs interval (in seconden"
 
 #: resources/ui/SettingsWindow.ui:117
 msgid "Delay after start (in seconds):"
-msgstr ""
+msgstr "Uitstel na start (in seconden)"
 
 #: resources/ui/SettingsWindow.ui:127
 msgid "Autostart"
-msgstr ""
+msgstr "Automatisch starten"
 
 #: resources/ui/SettingsWindow.ui:141
 msgid "Show error notifications"
-msgstr ""
+msgstr "Laat foutmeldingen zien"
 
 #: resources/ui/SettingsWindow.ui:155
 msgid "Hide icon when all articles were read"
-msgstr ""
+msgstr "Verberg icoon wanneer alle artikelen zijn gelezen"
 
 #: resources/ui/SettingsWindow.ui:169
 msgid "Set categories based on branch"
-msgstr ""
+msgstr "Stel categorieën in op basis van branch"
 
 #: resources/ui/SettingsWindow.ui:188
 msgid "Current branch:"
-msgstr ""
+msgstr "Huidige branch"
 
 #: resources/ui/SettingsWindow.ui:202
 msgid "Icon theme:"
-msgstr ""
+msgstr "Icoon thema"
 
 #: resources/ui/SettingsWindow.ui:212
 msgid "Bright"
-msgstr ""
+msgstr "Light"
 
 #: resources/ui/SettingsWindow.ui:228
 msgid "Dark"
-msgstr ""
+msgstr "Donker"
 
 #: resources/ui/SettingsWindow.ui:245
 msgid "Reset"
-msgstr ""
+msgstr "Opnieuw instellen"
 
 #: resources/ui/SettingsWindow.ui:263
 msgid "Selected categories"
-msgstr ""
+msgstr "Geselecteerde categorieën"
 
 #: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
+
 
 #: resources/ui/SettingsWindow.ui:318
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: resources/ui/SettingsWindow.ui:382
 msgid "System"
-msgstr ""
+msgstr "Systeem"
 
 #: resources/ui/SettingsWindow.ui:398
 msgid "Colorful"
-msgstr ""
+msgstr "Kleurrijk"
