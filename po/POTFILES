@@ -1,0 +1,4 @@
+src/ui/SettingsWindow.vala
+src/ui/TrayIcon.vala
+resources/ui/AboutWindow.ui
+resources/ui/SettingsWindow.ui

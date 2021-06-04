@@ -1,0 +1,154 @@
+# English translations for matray package.
+# Copyright (C) 2021 THE matray'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the matray package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: matray\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-29 10:35+0200\n"
+"PO-Revision-Date: 2021-05-29 10:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/ui/SettingsWindow.vala:154
+msgid "Current branch: "
+msgstr "Current branch: "
+
+#: src/ui/SettingsWindow.vala:156
+msgid "Could not detect branch!"
+msgstr "Could not detect branch!"
+
+#: src/ui/SettingsWindow.vala:171
+msgid "Additional categories"
+msgstr "Additional categories"
+
+#: src/ui/TrayIcon.vala:167
+msgid "Error occured fetching news:"
+msgstr "Error occured fetching news:"
+
+#: src/ui/TrayIcon.vala:168
+msgid "Error"
+msgstr "Error"
+
+#: src/ui/TrayIcon.vala:190
+msgid "News available!"
+msgstr "News available!"
+
+#: src/ui/TrayIcon.vala:198
+msgid "No news"
+msgstr "No news"
+
+#. add "mark all as read" menu item
+#: src/ui/TrayIcon.vala:214
+msgid "Mark all as read"
+msgstr "Mark all as read"
+
+#. add settings menu item
+#: src/ui/TrayIcon.vala:224 resources/ui/SettingsWindow.ui:49
+msgid "Settings"
+msgstr "Settings"
+
+#. add about menu item
+#: src/ui/TrayIcon.vala:236 resources/ui/AboutWindow.ui:7
+msgid "About"
+msgstr "About"
+
+#. add quit menu item -> save all settings and news items to disk
+#: src/ui/TrayIcon.vala:247
+msgid "Quit"
+msgstr "Quit"
+
+#: resources/ui/AboutWindow.ui:64
+msgid "A Manjaro Linux accouncements notification app"
+msgstr "A Manjaro Linux accouncements notification app"
+
+#: resources/ui/AboutWindow.ui:74
+msgid "Website"
+msgstr "Website"
+
+#: resources/ui/AboutWindow.ui:92
+msgid "Created by moson"
+msgstr "Created by moson"
+
+#: resources/ui/AboutWindow.ui:102
+msgid "Close"
+msgstr "Close"
+
+#: resources/ui/SettingsWindow.ui:67
+msgid "Server URL:"
+msgstr "Server URL:"
+
+#: resources/ui/SettingsWindow.ui:91
+msgid "Maximum number of articles in menu:"
+msgstr "Maximum number of articles in menu:"
+
+#: resources/ui/SettingsWindow.ui:104
+msgid "Refresh interval (in seconds):"
+msgstr "Refresh interval (in seconds):"
+
+#: resources/ui/SettingsWindow.ui:117
+msgid "Delay after start (in seconds):"
+msgstr "Delay after start (in seconds):"
+
+#: resources/ui/SettingsWindow.ui:127
+msgid "Autostart"
+msgstr "Autostart"
+
+#: resources/ui/SettingsWindow.ui:141
+msgid "Show error notifications"
+msgstr "Show error notifications"
+
+#: resources/ui/SettingsWindow.ui:155
+msgid "Hide icon when all articles were read"
+msgstr "Hide icon when all articles were read"
+
+#: resources/ui/SettingsWindow.ui:169
+msgid "Set categories based on branch"
+msgstr "Set categories based on branch"
+
+#: resources/ui/SettingsWindow.ui:188
+msgid "Current branch:"
+msgstr "Current branch:"
+
+#: resources/ui/SettingsWindow.ui:202
+msgid "Icon theme:"
+msgstr "Icon theme:"
+
+#: resources/ui/SettingsWindow.ui:212
+msgid "Bright"
+msgstr "Bright"
+
+#: resources/ui/SettingsWindow.ui:228
+msgid "Dark"
+msgstr "Dark"
+
+#: resources/ui/SettingsWindow.ui:245
+msgid "Reset"
+msgstr "Reset"
+
+#: resources/ui/SettingsWindow.ui:263
+msgid "Selected categories"
+msgstr "Selected categories"
+
+#: resources/ui/SettingsWindow.ui:304
+msgid "Cancel"
+msgstr "Cancel"
+
+#: resources/ui/SettingsWindow.ui:318
+msgid "Save"
+msgstr "Save"
+
+#: resources/ui/SettingsWindow.ui:382
+msgid "System"
+msgstr "System"
+
+#: resources/ui/SettingsWindow.ui:398
+msgid "Colorful"
+msgstr "Colorful"

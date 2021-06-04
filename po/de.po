@@ -1,0 +1,156 @@
+# German translations for matray package.
+# Copyright (C) 2021 Mario Oenning
+# This file is distributed under the same license as the matray package.
+# Mario Oenning <mo-son@mailbox.org>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: matray\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-29 10:35+0200\n"
+"PO-Revision-Date: 2021-04-30 14:48+0200\n"
+"Last-Translator: Mario Oenning\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: src/ui/SettingsWindow.vala:154
+msgid "Current branch: "
+msgstr "Aktuelle branch: "
+
+#: src/ui/SettingsWindow.vala:156
+msgid "Could not detect branch!"
+msgstr "Konnte branch nicht ermitteln!"
+
+#: src/ui/SettingsWindow.vala:171
+msgid "Additional categories"
+msgstr "Zusätzliche Kategorien"
+
+#: src/ui/TrayIcon.vala:167
+msgid "Error occured fetching news:"
+msgstr "Fehler beim aktualisieren der news:"
+
+#: src/ui/TrayIcon.vala:168
+msgid "Error"
+msgstr "Fehler"
+
+#: src/ui/TrayIcon.vala:190
+msgid "News available!"
+msgstr "Neue Nachrichten!"
+
+#: src/ui/TrayIcon.vala:198
+msgid "No news"
+msgstr "Keine neuen Nachrichten"
+
+#. add "mark all as read" menu item
+#: src/ui/TrayIcon.vala:214
+msgid "Mark all as read"
+msgstr "Markiere alle als gelesen"
+
+#. add settings menu item
+#: src/ui/TrayIcon.vala:224 resources/ui/SettingsWindow.ui:49
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. add about menu item
+#: src/ui/TrayIcon.vala:236 resources/ui/AboutWindow.ui:7
+msgid "About"
+msgstr "Über"
+
+#. add quit menu item -> save all settings and news items to disk
+#: src/ui/TrayIcon.vala:247
+msgid "Quit"
+msgstr "Beenden"
+
+#: resources/ui/AboutWindow.ui:64
+msgid "A Manjaro Linux accouncements notification app"
+msgstr "Eine Manjaro Linux Nachrichten app"
+
+#: resources/ui/AboutWindow.ui:74
+msgid "Website"
+msgstr "Webseite"
+
+#: resources/ui/AboutWindow.ui:92
+msgid "Created by moson"
+msgstr "Erstellt von moson"
+
+#: resources/ui/AboutWindow.ui:102
+msgid "Close"
+msgstr "Schließen"
+
+#: resources/ui/SettingsWindow.ui:67
+msgid "Server URL:"
+msgstr "Server URL:"
+
+#: resources/ui/SettingsWindow.ui:91
+msgid "Maximum number of articles in menu:"
+msgstr "Maximale Anzahl an Artikeln im Menu:"
+
+#: resources/ui/SettingsWindow.ui:104
+msgid "Refresh interval (in seconds):"
+msgstr "Abfrageinterval (in Sekunden):"
+
+#: resources/ui/SettingsWindow.ui:117
+msgid "Delay after start (in seconds):"
+msgstr "Startverzögerung (in Sekunden):"
+
+#: resources/ui/SettingsWindow.ui:127
+msgid "Autostart"
+msgstr "Autostart"
+
+#: resources/ui/SettingsWindow.ui:141
+msgid "Show error notifications"
+msgstr "Benachrichtigung bei Fehlern"
+
+#: resources/ui/SettingsWindow.ui:155
+msgid "Hide icon when all articles were read"
+msgstr "Icon verbergen wenn alles gelesen"
+
+#: resources/ui/SettingsWindow.ui:169
+msgid "Set categories based on branch"
+msgstr "Setzte Kategorien anhand der branch"
+
+#: resources/ui/SettingsWindow.ui:188
+msgid "Current branch:"
+msgstr "Aktuelle branch:"
+
+#: resources/ui/SettingsWindow.ui:202
+msgid "Icon theme:"
+msgstr "Icon Thema:"
+
+#: resources/ui/SettingsWindow.ui:212
+msgid "Bright"
+msgstr "Hell"
+
+#: resources/ui/SettingsWindow.ui:228
+msgid "Dark"
+msgstr "Dunkel"
+
+#: resources/ui/SettingsWindow.ui:245
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: resources/ui/SettingsWindow.ui:263
+msgid "Selected categories"
+msgstr "Ausgewählte Kategorien"
+
+#: resources/ui/SettingsWindow.ui:304
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: resources/ui/SettingsWindow.ui:318
+msgid "Save"
+msgstr "Speichern"
+
+#: resources/ui/SettingsWindow.ui:382
+msgid "System"
+msgstr "System"
+
+#: resources/ui/SettingsWindow.ui:398
+msgid "Colorful"
+msgstr "Bunt"

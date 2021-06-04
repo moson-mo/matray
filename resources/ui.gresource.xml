@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+    <gresource prefix="/org/moson/matray/">
+        <file preprocess="xml-stripblanks">ui/SettingsWindow.ui</file>
+        <file preprocess="xml-stripblanks">ui/AboutWindow.ui</file>
+        <file alias="matray_logo">images/matray_logo.png</file>
+        <file>misc/autostart.desktop</file>
+        <!--<file>icons/16x16/status/matray-news-bright.svg</file>
+        <file>icons/22x22/status/matray-no-news-bright.svg</file>
+        <file>icons/24x24/status/matray-news-bright.svg</file>
+        <file>icons/16x16/status/matray-no-news-dark.svg</file>
+        <file>icons/22x22/status/matray-news-dark.svg</file>
+        <file>icons/24x24/status/matray-no-news-dark.svg</file>
+        <file>icons/16x16/status/matray-no-news-colorful.svg</file>
+        <file>icons/22x22/status/matray-news-colorful.svg</file>
+        <file>icons/24x24/status/matray-no-news-colorful.svg</file>-->
+    </gresource>
+</gresources>
