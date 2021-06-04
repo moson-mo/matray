@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/moson-mo/matray/master/resources/icons/matray.png?inline=true"  align="left" width="120" />
+<img src="https://raw.githubusercontent.com/moson-mo/matray/master/resources/images/matray_logo.png?inline=true"  align="left" width="120" />
 
 # matray
 ## A Manjaro Linux announcements notification app (successor of mntray)
