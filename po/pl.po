@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-29 10:35+0200\n"
-"PO-Revision-Date: 2021-05-29 10:23+0200\n"
+"PO-Revision-Date: 2021-06-04 22:09+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: pl\n"
@@ -17,139 +17,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: src/ui/SettingsWindow.vala:154
 msgid "Current branch: "
-msgstr ""
+msgstr "Obecna gałąź:"
 
 #: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
-msgstr ""
+msgstr "Nie udało się wykryć gałęzi!"
 
 #: src/ui/SettingsWindow.vala:171
 msgid "Additional categories"
-msgstr ""
+msgstr "Dodatkowe kategorie"
 
 #: src/ui/TrayIcon.vala:167
 msgid "Error occured fetching news:"
-msgstr ""
+msgstr "Wystąpił błąd podczas pobierania wiadomości:"
 
 #: src/ui/TrayIcon.vala:168
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 #: src/ui/TrayIcon.vala:190
 msgid "News available!"
-msgstr ""
+msgstr "Dostępne nowe wiadomości!"
 
 #: src/ui/TrayIcon.vala:198
 msgid "No news"
-msgstr ""
+msgstr "Brak wiadomości"
 
 #. add "mark all as read" menu item
 #: src/ui/TrayIcon.vala:214
 msgid "Mark all as read"
-msgstr ""
+msgstr "Oznaczy wszystkie jako przeczytane"
 
 #. add settings menu item
 #: src/ui/TrayIcon.vala:224 resources/ui/SettingsWindow.ui:49
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 #. add about menu item
 #: src/ui/TrayIcon.vala:236 resources/ui/AboutWindow.ui:7
 msgid "About"
-msgstr ""
+msgstr "O programie"
 
 #. add quit menu item -> save all settings and news items to disk
 #: src/ui/TrayIcon.vala:247
 msgid "Quit"
-msgstr ""
+msgstr "Zakończ"
 
 #: resources/ui/AboutWindow.ui:64
 msgid "A Manjaro Linux accouncements notification app"
-msgstr ""
+msgstr "Aplikacja do śledzenia newsów w Manjaro Linux"
 
 #: resources/ui/AboutWindow.ui:74
 msgid "Website"
-msgstr ""
+msgstr "Strona internetowa"
 
 #: resources/ui/AboutWindow.ui:92
 msgid "Created by moson"
-msgstr ""
+msgstr "Stworzone przez moson"
 
 #: resources/ui/AboutWindow.ui:102
 msgid "Close"
-msgstr ""
+msgstr "Zamknij"
 
 #: resources/ui/SettingsWindow.ui:67
 msgid "Server URL:"
-msgstr ""
+msgstr "URL serwera:"
 
 #: resources/ui/SettingsWindow.ui:91
 msgid "Maximum number of articles in menu:"
-msgstr ""
+msgstr "Maksymalna liczba artykułów w menu:"
 
 #: resources/ui/SettingsWindow.ui:104
 msgid "Refresh interval (in seconds):"
-msgstr ""
+msgstr "Częstotliwość odświeżania (w sekundach):"
 
 #: resources/ui/SettingsWindow.ui:117
 msgid "Delay after start (in seconds):"
-msgstr ""
+msgstr "Opóźnienie po uruchomieniu (w sekundach):"
 
 #: resources/ui/SettingsWindow.ui:127
 msgid "Autostart"
-msgstr ""
+msgstr "Autostart"
 
 #: resources/ui/SettingsWindow.ui:141
 msgid "Show error notifications"
-msgstr ""
+msgstr "Pokaż powiadomienia o błędach"
 
 #: resources/ui/SettingsWindow.ui:155
 msgid "Hide icon when all articles were read"
-msgstr ""
+msgstr "Ukryj ikonę po przeczytaniu wszystkich artykułów"
 
 #: resources/ui/SettingsWindow.ui:169
 msgid "Set categories based on branch"
-msgstr ""
+msgstr "Ustaw kategorie na podstawie gałęzi"
 
 #: resources/ui/SettingsWindow.ui:188
 msgid "Current branch:"
-msgstr ""
+msgstr "Obecna gałąź:"
 
 #: resources/ui/SettingsWindow.ui:202
 msgid "Icon theme:"
-msgstr ""
+msgstr "Motyw ikon:"
 
 #: resources/ui/SettingsWindow.ui:212
 msgid "Bright"
-msgstr ""
+msgstr "Jasny"
 
 #: resources/ui/SettingsWindow.ui:228
 msgid "Dark"
-msgstr ""
+msgstr "Ciemy"
 
 #: resources/ui/SettingsWindow.ui:245
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: resources/ui/SettingsWindow.ui:263
 msgid "Selected categories"
-msgstr ""
+msgstr "Wybrane kategorie"
 
 #: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: resources/ui/SettingsWindow.ui:318
 msgid "Save"
-msgstr ""
+msgstr "Zapisz"
 
 #: resources/ui/SettingsWindow.ui:382
 msgid "System"
-msgstr ""
+msgstr "Systemowy"
 
 #: resources/ui/SettingsWindow.ui:398
 msgid "Colorful"
-msgstr ""
+msgstr "Kolorowy"
