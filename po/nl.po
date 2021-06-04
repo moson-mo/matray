@@ -140,8 +140,8 @@ msgstr "Geselecteerde categorieën"
 
 #: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
-msgstr "Terug zonder opslaan"
-# no literal translation in dutch seems appropritate so liberaly translated to 'quit this menu without saving' (I hate menu button naming)
+msgstr "Annuleren"
+
 
 #: resources/ui/SettingsWindow.ui:318
 msgid "Save"
