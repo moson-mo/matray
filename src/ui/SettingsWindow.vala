@@ -151,7 +151,7 @@ namespace ManjaroNews {
             clear_category_listbox ();
             string branch;
             if (settings.get_branch (out branch)) {
-                lbl_current_branch.label = _("Current branch: ") + branch;
+                lbl_current_branch.label = _("Current branch:") + " " + branch;
             } else {
                 lbl_current_branch.label = _("Could not detect branch!");
             }

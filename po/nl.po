@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-29 10:35+0200\n"
+"POT-Creation-Date: 2021-06-05 10:30+0200\n"
 "PO-Revision-Date: 2021-05-29 10:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/ui/SettingsWindow.vala:154
-msgid "Current branch: "
-msgstr ""
+#: src/ui/SettingsWindow.vala:154 resources/ui/SettingsWindow.ui:188
+msgid "Current branch:"
+msgstr "Huidige branch:"
 
 #: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
-msgstr "Branch niet gevonden"
+msgstr "Branch niet gevonden!"
 
 #: src/ui/SettingsWindow.vala:171
 msgid "Additional categories"
@@ -31,7 +31,7 @@ msgstr "Extra categorieën"
 
 #: src/ui/TrayIcon.vala:167
 msgid "Error occured fetching news:"
-msgstr "Fout tijdens ophalen nieuws"
+msgstr "Fout tijdens ophalen nieuws:"
 
 #: src/ui/TrayIcon.vala:168
 msgid "Error"
@@ -68,8 +68,8 @@ msgstr "Afsluiten"
 #: resources/ui/AboutWindow.ui:64
 msgid "A Manjaro Linux accouncements notification app"
 msgstr "Een Manjaro Linux aankondigings notificatie applicatie"
-# literal translations are iffi at best
 
+# literal translations are iffi at best
 #: resources/ui/AboutWindow.ui:74
 msgid "Website"
 msgstr "Website"
@@ -88,15 +88,15 @@ msgstr "Server URL"
 
 #: resources/ui/SettingsWindow.ui:91
 msgid "Maximum number of articles in menu:"
-msgstr "Maximaal aantal artikelen in het menu"
+msgstr "Maximaal aantal artikelen in het menu:"
 
 #: resources/ui/SettingsWindow.ui:104
 msgid "Refresh interval (in seconds):"
-msgstr "Ververs interval (in seconden"
+msgstr "Ververs interval (in seconden:"
 
 #: resources/ui/SettingsWindow.ui:117
 msgid "Delay after start (in seconds):"
-msgstr "Uitstel na start (in seconden)"
+msgstr "Uitstel na start (in seconden):"
 
 #: resources/ui/SettingsWindow.ui:127
 msgid "Autostart"
@@ -113,10 +113,6 @@ msgstr "Verberg icoon wanneer alle artikelen zijn gelezen"
 #: resources/ui/SettingsWindow.ui:169
 msgid "Set categories based on branch"
 msgstr "Stel categorieën in op basis van branch"
-
-#: resources/ui/SettingsWindow.ui:188
-msgid "Current branch:"
-msgstr "Huidige branch"
 
 #: resources/ui/SettingsWindow.ui:202
 msgid "Icon theme:"
@@ -141,7 +137,6 @@ msgstr "Geselecteerde categorieën"
 #: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
 msgstr "Annuleren"
-
 
 #: resources/ui/SettingsWindow.ui:318
 msgid "Save"

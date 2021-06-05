@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-29 10:35+0200\n"
+"POT-Creation-Date: 2021-06-05 10:30+0200\n"
 "PO-Revision-Date: 2021-05-29 10:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,9 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/ui/SettingsWindow.vala:154
-msgid "Current branch: "
-msgstr "Current branch: "
+#: src/ui/SettingsWindow.vala:154 resources/ui/SettingsWindow.ui:188
+msgid "Current branch:"
+msgstr "Current branch:"
 
 #: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
@@ -113,10 +113,6 @@ msgstr "Hide icon when all articles were read"
 msgid "Set categories based on branch"
 msgstr "Set categories based on branch"
 
-#: resources/ui/SettingsWindow.ui:188
-msgid "Current branch:"
-msgstr "Current branch:"
-
 #: resources/ui/SettingsWindow.ui:202
 msgid "Icon theme:"
 msgstr "Icon theme:"
@@ -152,3 +148,6 @@ msgstr "System"
 #: resources/ui/SettingsWindow.ui:398
 msgid "Colorful"
 msgstr "Colorful"
+
+#~ msgid "Current branch: "
+#~ msgstr "Current branch: "

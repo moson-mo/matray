@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-29 10:35+0200\n"
+"POT-Creation-Date: 2021-06-05 10:30+0200\n"
 "PO-Revision-Date: 2021-05-29 10:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/ui/SettingsWindow.vala:154
-msgid "Current branch: "
+#: src/ui/SettingsWindow.vala:154 resources/ui/SettingsWindow.ui:188
+msgid "Current branch:"
 msgstr ""
 
 #: src/ui/SettingsWindow.vala:156
@@ -112,10 +112,6 @@ msgstr ""
 
 #: resources/ui/SettingsWindow.ui:169
 msgid "Set categories based on branch"
-msgstr ""
-
-#: resources/ui/SettingsWindow.ui:188
-msgid "Current branch:"
 msgstr ""
 
 #: resources/ui/SettingsWindow.ui:202
