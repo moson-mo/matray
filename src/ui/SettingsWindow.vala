@@ -157,7 +157,7 @@ namespace ManjaroNews {
             }
 
             if (!chk_set_branch_categories.active) {
-                lbl_selected_categories.label = "Selected categories";
+                lbl_selected_categories.label = _("Selected categories");
                 foreach (var cat in settings.config.AvailableCategories) {
                     var cb = new CheckButton.with_label (cat);
                     lb_selected_categories.add (cb);

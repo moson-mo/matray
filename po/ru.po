@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-05 10:30+0200\n"
+"POT-Creation-Date: 2021-06-05 10:59+0200\n"
 "PO-Revision-Date: 2021-05-29 10:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -25,6 +25,10 @@ msgstr "Текущая ветка:"
 #: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
 msgstr "Не удалось определить ветку!"
+
+#: src/ui/SettingsWindow.vala:160 resources/ui/SettingsWindow.ui:263
+msgid "Selected categories"
+msgstr "Выбранные категории"
 
 #: src/ui/SettingsWindow.vala:171
 msgid "Additional categories"
@@ -129,10 +133,6 @@ msgstr "Темная"
 #: resources/ui/SettingsWindow.ui:245
 msgid "Reset"
 msgstr "Сброс"
-
-#: resources/ui/SettingsWindow.ui:263
-msgid "Selected categories"
-msgstr "Выбранные категории"
 
 #: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
