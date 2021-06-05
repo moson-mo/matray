@@ -22,7 +22,7 @@ There's much less data to be transferred and less burden on the forum host and c
 </br>
 
 ## How to build
-
+* Install build dependencies `sudo pacman -S libgee vala`
 * Download this package with: `git clone https://github.com/moson-mo/matray`
 * Change to package dir: `cd matray`
 * Build: `meson build && ninja -C build`
