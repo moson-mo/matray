@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-05 10:59+0200\n"
+"POT-Creation-Date: 2021-06-06 11:20+0200\n"
 "PO-Revision-Date: 2021-06-04 22:09+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,134 +19,98 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.4.1\n"
 
-#: src/ui/SettingsWindow.vala:154 resources/ui/SettingsWindow.ui:188
 msgid "Current branch:"
 msgstr "Obecna gałąź:"
 
-#: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
 msgstr "Nie udało się wykryć gałęzi!"
 
-#: src/ui/SettingsWindow.vala:160 resources/ui/SettingsWindow.ui:263
 msgid "Selected categories"
 msgstr "Wybrane kategorie"
 
-#: src/ui/SettingsWindow.vala:171
 msgid "Additional categories"
 msgstr "Dodatkowe kategorie"
 
-#: src/ui/TrayIcon.vala:167
 msgid "Error occured fetching news:"
 msgstr "Wystąpił błąd podczas pobierania wiadomości:"
 
-#: src/ui/TrayIcon.vala:168
 msgid "Error"
 msgstr "Błąd"
 
-#: src/ui/TrayIcon.vala:190
 msgid "News available!"
 msgstr "Dostępne nowe wiadomości!"
 
-#: src/ui/TrayIcon.vala:198
 msgid "No news"
 msgstr "Brak wiadomości"
 
-#. add "mark all as read" menu item
-#: src/ui/TrayIcon.vala:214
 msgid "Mark all as read"
 msgstr "Oznaczy wszystkie jako przeczytane"
 
-#. add settings menu item
-#: src/ui/TrayIcon.vala:224 resources/ui/SettingsWindow.ui:49
 msgid "Settings"
 msgstr "Ustawienia"
 
-#. add about menu item
-#: src/ui/TrayIcon.vala:236 resources/ui/AboutWindow.ui:7
 msgid "About"
 msgstr "O programie"
 
-#. add quit menu item -> save all settings and news items to disk
-#: src/ui/TrayIcon.vala:247
 msgid "Quit"
 msgstr "Zakończ"
 
-#: resources/ui/AboutWindow.ui:64
 msgid "A Manjaro Linux accouncements notification app"
 msgstr "Aplikacja do śledzenia newsów w Manjaro Linux"
 
-#: resources/ui/AboutWindow.ui:74
 msgid "Website"
 msgstr "Strona internetowa"
 
-#: resources/ui/AboutWindow.ui:92
 msgid "Created by moson"
 msgstr "Stworzone przez moson"
 
-#: resources/ui/AboutWindow.ui:102
 msgid "Close"
 msgstr "Zamknij"
 
-#: resources/ui/SettingsWindow.ui:67
 msgid "Server URL:"
 msgstr "URL serwera:"
 
-#: resources/ui/SettingsWindow.ui:91
 msgid "Maximum number of articles in menu:"
 msgstr "Maksymalna liczba artykułów w menu:"
 
-#: resources/ui/SettingsWindow.ui:104
 msgid "Refresh interval (in seconds):"
 msgstr "Częstotliwość odświeżania (w sekundach):"
 
-#: resources/ui/SettingsWindow.ui:117
 msgid "Delay after start (in seconds):"
 msgstr "Opóźnienie po uruchomieniu (w sekundach):"
 
-#: resources/ui/SettingsWindow.ui:127
 msgid "Autostart"
 msgstr "Autostart"
 
-#: resources/ui/SettingsWindow.ui:141
 msgid "Show error notifications"
 msgstr "Pokaż powiadomienia o błędach"
 
-#: resources/ui/SettingsWindow.ui:155
 msgid "Hide icon when all articles were read"
 msgstr "Ukryj ikonę po przeczytaniu wszystkich artykułów"
 
-#: resources/ui/SettingsWindow.ui:169
 msgid "Set categories based on branch"
 msgstr "Ustaw kategorie na podstawie gałęzi"
 
-#: resources/ui/SettingsWindow.ui:202
 msgid "Icon theme:"
 msgstr "Motyw ikon:"
 
-#: resources/ui/SettingsWindow.ui:212
 msgid "Bright"
 msgstr "Jasny"
 
-#: resources/ui/SettingsWindow.ui:228
 msgid "Dark"
 msgstr "Ciemy"
 
-#: resources/ui/SettingsWindow.ui:245
 msgid "Reset"
 msgstr "Reset"
 
-#: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: resources/ui/SettingsWindow.ui:318
 msgid "Save"
 msgstr "Zapisz"
 
-#: resources/ui/SettingsWindow.ui:382
 msgid "System"
 msgstr "Systemowy"
 
-#: resources/ui/SettingsWindow.ui:398
 msgid "Colorful"
 msgstr "Kolorowy"

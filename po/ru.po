@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-05 10:59+0200\n"
+"POT-Creation-Date: 2021-06-06 11:20+0200\n"
 "PO-Revision-Date: 2021-05-29 10:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,134 +18,98 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/ui/SettingsWindow.vala:154 resources/ui/SettingsWindow.ui:188
 msgid "Current branch:"
 msgstr "Текущая ветка:"
 
-#: src/ui/SettingsWindow.vala:156
 msgid "Could not detect branch!"
 msgstr "Не удалось определить ветку!"
 
-#: src/ui/SettingsWindow.vala:160 resources/ui/SettingsWindow.ui:263
 msgid "Selected categories"
 msgstr "Выбранные категории"
 
-#: src/ui/SettingsWindow.vala:171
 msgid "Additional categories"
 msgstr "Дополнительные категории"
 
-#: src/ui/TrayIcon.vala:167
 msgid "Error occured fetching news:"
 msgstr "Ошибка при попытке получить новости:"
 
-#: src/ui/TrayIcon.vala:168
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/ui/TrayIcon.vala:190
 msgid "News available!"
 msgstr "Доступны новости!"
 
-#: src/ui/TrayIcon.vala:198
 msgid "No news"
 msgstr "Нет новостей"
 
-#. add "mark all as read" menu item
-#: src/ui/TrayIcon.vala:214
 msgid "Mark all as read"
 msgstr "Отметить все как прочитанные"
 
-#. add settings menu item
-#: src/ui/TrayIcon.vala:224 resources/ui/SettingsWindow.ui:49
 msgid "Settings"
 msgstr "Настройки"
 
-#. add about menu item
-#: src/ui/TrayIcon.vala:236 resources/ui/AboutWindow.ui:7
 msgid "About"
 msgstr "О программе"
 
-#. add quit menu item -> save all settings and news items to disk
-#: src/ui/TrayIcon.vala:247
 msgid "Quit"
 msgstr "Выйти"
 
-#: resources/ui/AboutWindow.ui:64
 msgid "A Manjaro Linux accouncements notification app"
 msgstr "Приложение для оповещения о сообщениях Manjaro Linux"
 
-#: resources/ui/AboutWindow.ui:74
 msgid "Website"
 msgstr "Cайт"
 
-#: resources/ui/AboutWindow.ui:92
 msgid "Created by moson"
 msgstr "Создано moson"
 
-#: resources/ui/AboutWindow.ui:102
 msgid "Close"
 msgstr "Закрыть"
 
-#: resources/ui/SettingsWindow.ui:67
 msgid "Server URL:"
 msgstr "URL сервера:"
 
-#: resources/ui/SettingsWindow.ui:91
 msgid "Maximum number of articles in menu:"
 msgstr "Максимальное количество заметок в меню:"
 
-#: resources/ui/SettingsWindow.ui:104
 msgid "Refresh interval (in seconds):"
 msgstr "Интервал обновления (в секундах):"
 
-#: resources/ui/SettingsWindow.ui:117
 msgid "Delay after start (in seconds):"
 msgstr "Задержка после запуска (в секундах):"
 
-#: resources/ui/SettingsWindow.ui:127
 msgid "Autostart"
 msgstr "Автозапуск"
 
-#: resources/ui/SettingsWindow.ui:141
 msgid "Show error notifications"
 msgstr "Показывать оповещения об ошибках"
 
-#: resources/ui/SettingsWindow.ui:155
 msgid "Hide icon when all articles were read"
 msgstr "Спрятать значок, когда все заметки прочитаны"
 
-#: resources/ui/SettingsWindow.ui:169
 msgid "Set categories based on branch"
 msgstr "Выбрать категории в зависимости от ветки"
 
-#: resources/ui/SettingsWindow.ui:202
 msgid "Icon theme:"
 msgstr "Тема значков:"
 
-#: resources/ui/SettingsWindow.ui:212
 msgid "Bright"
 msgstr "Светлая"
 
-#: resources/ui/SettingsWindow.ui:228
 msgid "Dark"
 msgstr "Темная"
 
-#: resources/ui/SettingsWindow.ui:245
 msgid "Reset"
 msgstr "Сброс"
 
-#: resources/ui/SettingsWindow.ui:304
 msgid "Cancel"
 msgstr "Отмена"
 
-#: resources/ui/SettingsWindow.ui:318
 msgid "Save"
 msgstr "Сохранить"
 
-#: resources/ui/SettingsWindow.ui:382
 msgid "System"
 msgstr "Системная"
 
-#: resources/ui/SettingsWindow.ui:398
 msgid "Colorful"
 msgstr "Цветная"
