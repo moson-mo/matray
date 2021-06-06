@@ -23,6 +23,7 @@ There's much less data to be transferred and less burden on the forum host and c
 
 ## How to build
 
+* Make sure all [dependencies](https://github.com/moson-mo/matray#dependencies) are installed
 * Download this package with: `git clone https://github.com/moson-mo/matray`
 * Change to package dir: `cd matray`
 * Build: `meson build && ninja -C build`
@@ -39,7 +40,7 @@ For Arch-based distributions there is an [AUR package](https://aur.archlinux.org
 
 ## Configuration
 
-On the first startup a config file (`~/.config/matray/config.json`) is created with some default settings.
+On the first startup, a config file (`~/.config/matray/config.json`) is created with some default settings.
 You can either use the GUI to change the configuration (open "Settings" from the menu) or edit the config file.
 
 ```
@@ -101,10 +102,21 @@ IconTheme| The color of the tray icon. Can be "Bright", "Dark", "Colorful" or "S
 
 </br>
 
-## Main dependencies
+## Dependencies
 
-* [gtk3](https://www.gtk.org/) - GIMP ToolKit - Widget toolkit for GUI creation
-* [libappindicator](https://launchpad.net/libappindicator) - library used to generate the tray icon
+* gtk3
+* glib2
+* json-glib
+* libappindicator-gtk3
+* libgee
+* libsoup
+</br>
+
+#### Build dependencies
+
+* meson
+* ninja
+* vala
 </br>
 
 ## Screenshots
