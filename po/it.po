@@ -18,97 +18,97 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Current branch:"
-msgstr ""
+msgstr "Distribuzione in uso:"
 
 msgid "Could not detect branch!"
-msgstr ""
+msgstr "Impossibile rilevare distribuzione!"
 
 msgid "Selected categories"
-msgstr ""
+msgstr "Categorie selezionate"
 
 msgid "Additional categories"
-msgstr ""
+msgstr "Categorie aggiuntive"
 
 msgid "Error occured fetching news:"
-msgstr ""
+msgstr "Errore nel recupero degli annunci:"
 
 msgid "Error"
-msgstr ""
+msgstr "Errore"
 
 msgid "News available!"
-msgstr ""
+msgstr "Nuovi annunci!"
 
 msgid "No news"
-msgstr ""
+msgstr "Nessun annuncio"
 
 msgid "Mark all as read"
-msgstr ""
+msgstr "Segna tutto come già letto"
 
 msgid "Settings"
-msgstr ""
+msgstr "Impostazioni"
 
 msgid "About"
-msgstr ""
+msgstr "Informazioni"
 
 msgid "Quit"
-msgstr ""
+msgstr "Esci"
 
 msgid "A Manjaro Linux accouncements notification app"
-msgstr ""
+msgstr "Un'app per notificare gli annunci di Manjaro Linux"
 
 msgid "Website"
-msgstr ""
+msgstr "Sito Web"
 
 msgid "Created by moson"
-msgstr ""
+msgstr "Creata da moson"
 
 msgid "Close"
-msgstr ""
+msgstr "Chiudi"
 
 msgid "Server URL:"
-msgstr ""
+msgstr "URL Server: "
 
 msgid "Maximum number of articles in menu:"
-msgstr ""
+msgstr "Numero massimo di articoli in menu:"
 
 msgid "Refresh interval (in seconds):"
-msgstr ""
+msgstr "Intervallo di aggiornamento (in secondi)"
 
 msgid "Delay after start (in seconds):"
-msgstr ""
+msgstr "Ritardo dopo l'avvio (in secondi):"
 
 msgid "Autostart"
-msgstr ""
+msgstr "Avvia automaticamente"
 
 msgid "Show error notifications"
-msgstr ""
+msgstr "Mostra notifiche di errori"
 
 msgid "Hide icon when all articles were read"
-msgstr ""
+msgstr "Nascondi l'icona quando tutti gli articoli sono stati letti"
 
 msgid "Set categories based on branch"
-msgstr ""
+msgstr "Imposta categorie in base alla distribuzione"
 
 msgid "Icon theme:"
-msgstr ""
+msgstr "Tema icona:"
 
 msgid "Bright"
-msgstr ""
+msgstr "Chiaro"
 
 msgid "Dark"
-msgstr ""
+msgstr "Scuro"
 
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"
 
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 msgid "System"
-msgstr ""
+msgstr "Sistema"
 
 msgid "Colorful"
-msgstr ""
+msgstr "Colorato"
