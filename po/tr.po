@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-06 11:20+0200\n"
-"PO-Revision-Date: 2021-05-29 10:23+0200\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2021-06-12 10:23+0200\n"
+"Last-Translator: Oguz Kagan EREN\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -18,97 +18,97 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Current branch:"
-msgstr ""
+msgstr "Mevcut dal(branch):"
 
 msgid "Could not detect branch!"
-msgstr ""
+msgstr "Dal(branch) tespit edilemedi!"
 
 msgid "Selected categories"
-msgstr ""
+msgstr "Seçili kategoriler"
 
 msgid "Additional categories"
-msgstr ""
+msgstr "Ek kategoriler"
 
 msgid "Error occured fetching news:"
-msgstr ""
+msgstr "Veri alınırken hata oluştu:"
 
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 msgid "News available!"
-msgstr ""
+msgstr "Yenilikler var!"
 
 msgid "No news"
-msgstr ""
+msgstr "Yeni bildirim yok"
 
 msgid "Mark all as read"
-msgstr ""
+msgstr "Tümünü okundu olarak işaretle"
 
 msgid "Settings"
-msgstr ""
+msgstr "Ayarlar"
 
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 msgid "Quit"
-msgstr ""
+msgstr "Çıkış"
 
 msgid "A Manjaro Linux accouncements notification app"
-msgstr ""
+msgstr "Manjaro Linux duyuru bildirim uygulaması"
 
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
 msgid "Created by moson"
-msgstr ""
+msgstr "Moson tarafından oluşturulmuştur"
 
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 msgid "Server URL:"
-msgstr ""
+msgstr "Sunucu Adresi:"
 
 msgid "Maximum number of articles in menu:"
-msgstr ""
+msgstr "Menudeki maksimum makale sayısı:"
 
 msgid "Refresh interval (in seconds):"
-msgstr ""
+msgstr "Yenileme aralığı (saniye):"
 
 msgid "Delay after start (in seconds):"
-msgstr ""
+msgstr "Başlattıktan sonraki gecikme (saniye):"
 
 msgid "Autostart"
-msgstr ""
+msgstr "Otomatik Başlatma"
 
 msgid "Show error notifications"
-msgstr ""
+msgstr "Bildirim hatalarını göster"
 
 msgid "Hide icon when all articles were read"
-msgstr ""
+msgstr "Tüm bildirimler okunduğunda ikonu gizle"
 
 msgid "Set categories based on branch"
-msgstr ""
+msgstr "Kullanılan dala(branch) göre kategorileri ayarla"
 
 msgid "Icon theme:"
-msgstr ""
+msgstr "Ikon teması"
 
 msgid "Bright"
-msgstr ""
+msgstr "Gündüz"
 
 msgid "Dark"
-msgstr ""
+msgstr "Gece"
 
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 msgid "Colorful"
-msgstr ""
+msgstr "Renkli"
