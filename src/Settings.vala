@@ -125,7 +125,6 @@ namespace ManjaroNews {
 
         // read configuration file
         public bool load_config () {
-            // extract_icons_to_cache ();
             string b;
             get_branch (out b);
             try {
@@ -144,6 +143,7 @@ namespace ManjaroNews {
         public bool save_config () {
             try {
                 size_t len;
+                config.Version = new Config.get_default ().Version;
                 var conf = Json.gobject_to_data (config, out len);
 
                 FileUtils.set_contents (config_file_path, conf, (ssize_t) len);

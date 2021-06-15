@@ -5,6 +5,7 @@
 </br>
 
 [![GitHub release](https://img.shields.io/github/v/tag/moson-mo/matray.svg?label=release&sort=semver)](https://github.com/moson-mo/matray/releases)
+[![matray](https://img.shields.io/aur/version/matray?label=AUR%3A%20matray)](https://aur.archlinux.org/packages/matray/)
 
 A small tray application showing announcements and news for [Manjaro Linux](https://manjaro.org).\
 It creates a tray icon with a menu showing the latest announcements from the Manjaro Forum RSS feed & "manjarolinux" twitter account.
@@ -31,9 +32,6 @@ There's much less data to be transferred and less burden on the forum host and c
 </br>
 
 ## How to install
-
-Binaries are available from the [releases](https://github.com/moson-mo/matray/releases) page.\
-Use "install_icons.sh" script in order to install the required icons.
 
 For Arch-based distributions there is an [AUR package](https://aur.archlinux.org/packages/matray/) available.
 </br>
