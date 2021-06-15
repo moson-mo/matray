@@ -6,6 +6,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/tag/moson-mo/matray.svg?label=release&sort=semver)](https://github.com/moson-mo/matray/releases)
 [![matray](https://img.shields.io/aur/version/matray?label=AUR%3A%20matray)](https://aur.archlinux.org/packages/matray/)
+[![build](https://img.shields.io/github/workflow/status/moson-mo/matray/build)](https://github.com/moson-mo/matray/actions)
 
 A small tray application showing announcements and news for [Manjaro Linux](https://manjaro.org).\
 It creates a tray icon with a menu showing the latest announcements from the Manjaro Forum RSS feed & "manjarolinux" twitter account.
