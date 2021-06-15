@@ -1,0 +1,29 @@
+
+name: build
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    container:
+      image: manjarolinux/base:latest
+    
+    steps:
+    - name: Full upgrade
+      run: |
+         pacman-mirrors -a -S unstable -U https://manjaro.moson.eu/
+         pacman -Syyu --noconfirm
+         
+    - name: Install Dependencies
+      run: |
+        pacman -S vala meson noto-fonts libgee libappindicator-gtk3 --noconfirm
+        
+    - uses: actions/checkout@v2
+    - name: Build
+      run: |
+        meson build
+        ninja -C build
+        ninja -C build install
