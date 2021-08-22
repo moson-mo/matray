@@ -65,6 +65,7 @@ namespace ManjaroNews {
         const string RESOURCE_PATH_ICONS = "/org/moson/matray/icons/";
         const string RESOURCE_PATH_MISC = "/org/moson/matray/misc/";
         const string AUTOSTART_FILE = "autostart.desktop";
+        const string AUTOSTART_OFF_FILE = "autostart_off.desktop";
 
         /* constructor */
         public Settings () {
@@ -204,7 +205,7 @@ namespace ManjaroNews {
             try {
                 var bytes = resources_lookup_data (RESOURCE_PATH_MISC + AUTOSTART_FILE, ResourceLookupFlags.NONE).get_data ();
                 if (!config.Autostart) {
-                    bytes = (uint8[]) (((string) bytes) + "Hidden=true");
+                    bytes = resources_lookup_data (RESOURCE_PATH_MISC + AUTOSTART_OFF_FILE, ResourceLookupFlags.NONE).get_data ();
                 }
                 FileUtils.set_data (dest_file_path, bytes);
             } catch (Error e) {
