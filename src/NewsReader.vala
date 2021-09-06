@@ -86,6 +86,18 @@ namespace ManjaroNews {
             is_running = false;
         }
 
+        public NewsItem get_latest_item () {
+            NewsItem latest = new NewsItem ();
+            latest.PublishedDateUnix = 0;
+
+            foreach (var item in news_items) {
+                if (item.PublishedDateUnix > latest.PublishedDateUnix) {
+                    latest = item;
+                }
+            }
+            return latest;
+        }
+
         // remove all items that are not needed since they exceed our maximum number of items
         public void remove_obsolete_items () {
             if (is_running) {       // actually quite useless. I do know it won't be running when this executes :)
@@ -154,9 +166,8 @@ namespace ManjaroNews {
             session.queue_message (message, (session, msg) => {
                 // error :(
                 if (msg.status_code != 200) {
-                    var status = Soup.Status.get_phrase (msg.status_code);
-                    printerr ("Error occured fetching news:\n%s\n", status);
-                    error_occured (status);
+                    printerr ("Error occured fetching news:\n%s\n", msg.reason_phrase);
+                    error_occured (msg.reason_phrase);
                     return;
                 }
                 // parse json and add news item is not yet in list

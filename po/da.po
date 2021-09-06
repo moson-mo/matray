@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: matray\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-06 11:20+0200\n"
+"POT-Creation-Date: 2021-09-06 18:47+0200\n"
 "PO-Revision-Date: 2021-05-29 10:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -34,6 +34,12 @@ msgstr "Fejl ved hentning af nyheder:"
 
 msgid "Error"
 msgstr "Fejl"
+
+msgid "And"
+msgstr "Og"
+
+msgid "more..."
+msgstr "yderligere..."
 
 msgid "News available!"
 msgstr "Der er nyheder!"

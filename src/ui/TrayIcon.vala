@@ -209,6 +209,8 @@ namespace ManjaroNews {
 
         // signal callback - when news have been fetched
         private void on_nr_news_fetched () {
+            int num_notifications = count_new_notifications ();
+
             foreach (var news_item in news_reader.news_items) {
                 if (!news_item.NotificationSent) {
                     // set up action (open item)
@@ -227,10 +229,20 @@ namespace ManjaroNews {
                         create_menu ();
                     });
                     this.add_action (open_action);
-                    new_notification ("Manjaro news", news_item.Title, ICON_TYPE.NEWS, action_name);
+
+                    // notify on single news item
+                    if (num_notifications == 1) {
+                        new_notification ("Manjaro news", news_item.Title, ICON_TYPE.NEWS, action_name);
+                    }
                     news_item.NotificationSent = true;
                 }
             }
+
+            // notify on multiple news items
+            if (num_notifications > 1) {
+                new_notification ("Manjaro news", news_reader.get_latest_item ().Title + "\n\n%s %d %s".printf (_("And"), num_notifications - 1, _("more...")), ICON_TYPE.NEWS, null);
+            }
+
             create_menu ();
             set_tray_icon ();
             settings.save_news_local (news_reader.news_items);
@@ -253,6 +265,17 @@ namespace ManjaroNews {
             if (settings.config.HideNoNews) {
                 icon.set_status (IndicatorStatus.PASSIVE);
             }
+        }
+
+        // gets number of items with pending notifications
+        private int count_new_notifications () {
+            int count = 0;
+            foreach (var item in news_reader.news_items) {
+                if (!item.NotificationSent) {
+                    count++;
+                }
+            }
+            return count;
         }
 
         // create tray menu

@@ -2,6 +2,7 @@
 Terminal=false
 Name=matray
 Type=Application
+Categories=Network;News;TrayIcon;
 Exec=/usr/bin/matray
 Icon=matray
 Comment=A Manjaro Linux announcements notification app

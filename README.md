@@ -5,7 +5,6 @@
 </br>
 
 [![GitHub release](https://img.shields.io/github/v/tag/moson-mo/matray.svg?label=release&sort=semver)](https://github.com/moson-mo/matray/releases)
-[![matray](https://img.shields.io/aur/version/matray?label=AUR%3A%20matray)](https://aur.archlinux.org/packages/matray/)
 [![build](https://img.shields.io/github/workflow/status/moson-mo/matray/build)](https://github.com/moson-mo/matray/actions)
 
 A small tray application showing announcements and news for [Manjaro Linux](https://manjaro.org).\
@@ -34,7 +33,9 @@ There's much less data to be transferred and less burden on the forum host and c
 
 ## How to install
 
-For Arch-based distributions there is an [AUR package](https://aur.archlinux.org/packages/matray/) available.
+~~For Arch-based distributions there is an [AUR package](https://aur.archlinux.org/packages/matray/) available.~~  
+The AUR package got removed. A package is available in the Manjaro repositories.  
+PKGBUILD for the -git version is available [here](https://github.com/moson-mo/matray/raw/master/resources/misc/PKGBUILD)
 </br>
 
 ## Configuration
