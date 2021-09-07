@@ -31,7 +31,7 @@ msgstr "Wybrane kategorie"
 msgid "Additional categories"
 msgstr "Dodatkowe kategorie"
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr "Wystąpił błąd podczas pobierania wiadomości:"
 
 msgid "Error"

@@ -29,7 +29,7 @@ msgstr "Geselecteerde categorieën"
 msgid "Additional categories"
 msgstr "Extra categorieën"
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr "Fout tijdens ophalen nieuws:"
 
 msgid "Error"

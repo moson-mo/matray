@@ -105,7 +105,7 @@ namespace ManjaroNews {
             news_reader = new NewsReader (settings);
             news_reader.news_items.add_all (settings.load_news_local ());
             set_tray_icon ();
-            news_reader.error_occured.connect (on_nr_error_occured);
+            news_reader.error_occurred.connect (on_nr_error_occurred);
             news_reader.news_fetched.connect (on_nr_news_fetched);
 
             // if --delay was given as argument, delay startup of newsreader
@@ -199,10 +199,10 @@ namespace ManjaroNews {
             return Source.REMOVE;
         }
 
-        // signal callback - when error occured
-        private void on_nr_error_occured (string message) {
+        // signal callback - when error occurred
+        private void on_nr_error_occurred (string message) {
             if (settings.config.ErrorNotifications) {
-                var err_msg = _("Error occured fetching news:") + "\n\n" + message;
+                var err_msg = _("Error occurred fetching news:") + "\n\n" + message;
                 new_notification (_("Error"), err_msg, ICON_TYPE.ERROR, null);
             }
         }

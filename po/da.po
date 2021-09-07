@@ -29,7 +29,7 @@ msgstr "Valgte kategorer"
 msgid "Additional categories"
 msgstr "Ekstra katagorier"
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr "Fejl ved hentning af nyheder:"
 
 msgid "Error"

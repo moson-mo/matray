@@ -29,7 +29,7 @@ msgstr "Seçili kategoriler"
 msgid "Additional categories"
 msgstr "Ek kategoriler"
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr "Veri alınırken hata oluştu:"
 
 msgid "Error"

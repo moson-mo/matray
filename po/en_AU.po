@@ -29,8 +29,8 @@ msgstr "Selected categories"
 msgid "Additional categories"
 msgstr "Additional categories"
 
-msgid "Error occured fetching news:"
-msgstr "Error occured fetching news:"
+msgid "Error occurred fetching news:"
+msgstr "Error occurred fetching news:"
 
 msgid "Error"
 msgstr "Error"

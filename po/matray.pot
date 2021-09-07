@@ -29,7 +29,7 @@ msgstr ""
 msgid "Additional categories"
 msgstr ""
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr ""
 
 msgid "Error"

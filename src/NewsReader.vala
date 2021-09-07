@@ -48,7 +48,7 @@ namespace ManjaroNews {
         public ArrayList<NewsItem> news_items { get; set; }
 
         /* signals */
-        public signal void error_occured (string message);
+        public signal void error_occurred (string message);
         public signal void news_fetched ();
 
         /* constructor */
@@ -166,8 +166,8 @@ namespace ManjaroNews {
             session.queue_message (message, (session, msg) => {
                 // error :(
                 if (msg.status_code != 200) {
-                    printerr ("Error occured fetching news:\n%s\n", msg.reason_phrase);
-                    error_occured (msg.reason_phrase);
+                    printerr ("Error occurred fetching news:\n%s\n", msg.reason_phrase);
+                    error_occurred (msg.reason_phrase);
                     return;
                 }
                 // parse json and add news item is not yet in list

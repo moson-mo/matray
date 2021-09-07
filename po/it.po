@@ -29,7 +29,7 @@ msgstr "Categorie selezionate"
 msgid "Additional categories"
 msgstr "Categorie aggiuntive"
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr "Errore nel recupero degli annunci:"
 
 msgid "Error"

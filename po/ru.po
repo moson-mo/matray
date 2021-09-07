@@ -30,7 +30,7 @@ msgstr "Выбранные категории"
 msgid "Additional categories"
 msgstr "Дополнительные категории"
 
-msgid "Error occured fetching news:"
+msgid "Error occurred fetching news:"
 msgstr "Ошибка при попытке получить новости:"
 
 msgid "Error"
