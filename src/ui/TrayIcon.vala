@@ -46,6 +46,8 @@ namespace ManjaroNews {
         string iconChecked = "emblem-checked";
         string iconUnchecked = "emblem-remove";
         string iconSettings = "repository";
+        SettingsWindow settings_win;
+        AboutWindow about_win;
 
         /* delegates */
         delegate void ExecFunc ();
@@ -300,19 +302,32 @@ namespace ManjaroNews {
             // add settings menu item
             add_menu_item (_("Settings"), iconSettings, () => {
                 news_reader.stop (); // stop reading news: when settings change we don't need to refresh
-                var settings_win = new SettingsWindow (settings);
+                if (settings_win != null) {
+                    settings_win.present ();
+                    return;
+                }
+                settings_win = new SettingsWindow (settings);
                 settings_win.show_all ();
                 settings_win.delete_event.connect (() => { // start reading news again after setting changes
                     set_tray_icon ();
                     news_reader.start ();
+                    settings_win = null;
                     return false;
                 });
             });
 
             // add about menu item
             add_menu_item (_("About"), "dialog-information", () => {
-                var about_win = new AboutWindow ();
+                if (about_win != null) {
+                    about_win.present ();
+                    return;
+                }
+                about_win = new AboutWindow ();
                 about_win.show_all ();
+                about_win.delete_event.connect (() => {
+                    this.about_win = null;
+                    return false;
+                });
             });
 
             // add separator before quit menu item

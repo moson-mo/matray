@@ -40,7 +40,7 @@ namespace ManjaroNews {
 
         [GtkCallback]
         private void btn_close_clicked (Button btn) {
-            this.destroy ();
+            this.close ();
         }
     }
 }
