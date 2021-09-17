@@ -1,0 +1,123 @@
+# French translations for matray package.
+# Copyright (C) 2021 THE matray'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the matray package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: matray\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 18:47+0200\n"
+"PO-Revision-Date: 2021-05-29 10:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Current branch:"
+msgstr "Branche actuelle:"
+
+msgid "Could not detect branch!"
+msgstr "Impossible de détecter la branche!"
+
+msgid "Selected categories"
+msgstr "Catégories sélectionnées"
+
+msgid "Additional categories"
+msgstr "Catégories additionnelles"
+
+msgid "Error occured fetching news:"
+msgstr "Une erreur s'est produite lors de la récupération des actualités:"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "And"
+msgstr "Et"
+
+msgid "more..."
+msgstr "plus..."
+
+msgid "News available!"
+msgstr "Nouvelles disponibles!"
+
+msgid "No news"
+msgstr "Pas de nouvelles"
+
+msgid "Mark all as read"
+msgstr "Marquer tout comme lu"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "About"
+msgstr "A propos"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "A Manjaro Linux accouncements notification app"
+msgstr "Une application de notification pour les nouvelles de Manjaro Linux"
+
+msgid "Website"
+msgstr "Site internet"
+
+msgid "Created by moson"
+msgstr "Créé par moson"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Server URL:"
+msgstr "URL du serveur:"
+
+msgid "Maximum number of articles in menu:"
+msgstr "Nombre maximum d'articles dans le menu:"
+
+msgid "Refresh interval (in seconds):"
+msgstr "Interval d'actualisation (en secondes):"
+
+msgid "Delay after start (in seconds):"
+msgstr "Délai après démarrage (en secondes):"
+
+msgid "Autostart"
+msgstr "Démarrage automatique"
+
+msgid "Show error notifications"
+msgstr "Voir les notifications d'erreur"
+
+msgid "Hide icon when all articles were read"
+msgstr "Cacher l'icône quand toutes les nouvelles sont lues"
+
+msgid "Set categories based on branch"
+msgstr "Définir les catégories en fonction de la branche"
+
+msgid "Icon theme:"
+msgstr "Thème d'icône:"
+
+msgid "Bright"
+msgstr "Clair"
+
+msgid "Dark"
+msgstr "Sombre"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "System"
+msgstr "Système"
+
+msgid "Colorful"
+msgstr "Coloré"
+
+#~ msgid "Current branch: "
+#~ msgstr "Current branch: "
