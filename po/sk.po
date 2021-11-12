@@ -1,0 +1,121 @@
+# Slovak translation of matray
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the matray package.
+# Dušan Kazik <prescott66@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: matray\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-06 18:47+0200\n"
+"PO-Revision-Date: 2021-11-12 16:42+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"Language: sk\n"
+
+msgid "Current branch:"
+msgstr "Aktuálna vetva:"
+
+msgid "Could not detect branch!"
+msgstr "Nepodarilo sa zistiť vetvu!"
+
+msgid "Selected categories"
+msgstr "Vybrané kategórie"
+
+msgid "Additional categories"
+msgstr "Dodatočné kategórie"
+
+msgid "Error occurred fetching news:"
+msgstr "Počas získavania noviniek sa vyskytla chyba:"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "And"
+msgstr "A"
+
+msgid "more..."
+msgstr "ďalších..."
+
+msgid "News available!"
+msgstr "Sú dostupné novinky!"
+
+msgid "No news"
+msgstr "Žiadne novinky"
+
+msgid "Mark all as read"
+msgstr "Označiť všetko ako prečítané"
+
+msgid "Settings"
+msgstr "Nastavenia"
+
+msgid "About"
+msgstr "O aplikácii"
+
+msgid "Quit"
+msgstr "Ukončiť"
+
+msgid "A Manjaro Linux accouncements notification app"
+msgstr "Aplikácia s oznámeniami o novinkách distribúcie Manjaro Linux"
+
+msgid "Website"
+msgstr "Webová stránka"
+
+msgid "Created by moson"
+msgstr "Vytvoril moson"
+
+msgid "Close"
+msgstr "Zavrieť"
+
+msgid "Server URL:"
+msgstr "URL servera:"
+
+msgid "Maximum number of articles in menu:"
+msgstr "Maximálny počet článkov v ponuke:"
+
+msgid "Refresh interval (in seconds):"
+msgstr "Interval obnovenia (v sekundách):"
+
+msgid "Delay after start (in seconds):"
+msgstr "Oneskorenie po spustení (v sekundách):"
+
+msgid "Autostart"
+msgstr "Spúšťať automaticky"
+
+msgid "Show error notifications"
+msgstr "Zobraziť oznámenia o chybách"
+
+msgid "Hide icon when all articles were read"
+msgstr "Skryť ikonu, keď sú všetky články prečítané"
+
+msgid "Set categories based on branch"
+msgstr "Nastaviť kategórie podľa vetvy"
+
+msgid "Icon theme:"
+msgstr "Motív ikon:"
+
+msgid "Bright"
+msgstr "Svetlý"
+
+msgid "Dark"
+msgstr "Tmavý"
+
+msgid "Reset"
+msgstr "Obnoviť"
+
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgid "Save"
+msgstr "Uložiť"
+
+msgid "System"
+msgstr "Systémový"
+
+msgid "Colorful"
+msgstr "Farebný"
