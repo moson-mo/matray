@@ -37,10 +37,10 @@ msgid "Error"
 msgstr "오류"
 
 msgid "And"
-msgstr "및"
+msgstr "그리고"
 
 msgid "more..."
-msgstr "자세한 정보..."
+msgstr "개의 소식..."
 
 msgid "News available!"
 msgstr "소식이 있습니다!"
