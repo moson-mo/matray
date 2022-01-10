@@ -81,7 +81,7 @@ namespace ManjaroNews {
             this.RefreshInterval = 600;
             this.HideNoNews = false;
             this.Autostart = true;
-            this.ErrorNotifications = true;
+            this.ErrorNotifications = false;
             this.DelayAfterStart = 10;
             this.SetCategoriesFromBranch = true;
             this.IconTheme = "Bright";

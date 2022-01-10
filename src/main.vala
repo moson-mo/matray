@@ -36,8 +36,8 @@ namespace ManjaroNews {
         }
         var tray_icon = new TrayIcon (delay);
         var ret = tray_icon.run (null);
-        if (tray_icon.is_remote) {
-            print ("%s\n", "matray is already running!");
+        if (!tray_icon.running) {
+            print ("\n%s\n\n", "matray is already running!");
         }
         return ret;
     }

@@ -36,11 +36,13 @@ namespace ManjaroNews {
 
     // application class constructing tray icon
     public class TrayIcon : Gtk.Application {
+        /* public fields */
+        public bool running { get; private set; }
+
         /* private fields */
         Gtk.Menu menu;
         NewsReader news_reader;
         Settings settings;
-        bool running;
         bool delay;
         Indicator icon;
         string iconChecked = "emblem-checked";
@@ -54,9 +56,10 @@ namespace ManjaroNews {
 
         /* constructor */
         public TrayIcon (bool delay) {
-            application_id = "org.moson.matray";
-            flags = ApplicationFlags.FLAGS_NONE;
-            register_session = true;
+            Object(
+                application_id: "org.moson.matray",
+                flags: ApplicationFlags.FLAGS_NONE
+            );
 
             this.delay = delay;
             shutdown.connect (quit_app);
