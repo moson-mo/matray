@@ -1,3 +1,15 @@
+### Service shutdown of `manjaro.moson.eu` is planned for the 23rd of October
+### Currently there is no alternative available so it is recommended to stop using matray
+
+Also see: https://github.com/moson-mo/mnserver/issues/1
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 <img src="https://raw.githubusercontent.com/moson-mo/matray/master/resources/images/matray_logo.png?inline=true"  align="left" width="120" />
 
 # matray
@@ -144,7 +156,6 @@ IconTheme| The color of the tray icon. Can be "Bright", "Dark", "Colorful" or "S
 
 ## Thanks to
 
-* The Manjaro Team for the great distro
 * The Manjaro community for testing and feedback
 * [SGS](https://github.com/sgse) for providing the app logo
 * The ones I forgot to mention here :)
