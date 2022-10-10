@@ -21,7 +21,7 @@ msgid "Current branch:"
 msgstr "Rama actual:"
 
 msgid "Could not detect branch!"
-msgstr "No se a podido detectar la rama!"
+msgstr "¡No se ha podido detectar la rama!"
 
 msgid "Selected categories"
 msgstr "Categorías seleccionadas"
@@ -42,7 +42,7 @@ msgid "more..."
 msgstr "más..."
 
 msgid "News available!"
-msgstr "Noticias disponibles!"
+msgstr "¡Noticias disponibles!"
 
 msgid "No news"
 msgstr "No hay noticias"
@@ -84,7 +84,7 @@ msgid "Delay after start (in seconds):"
 msgstr "Retraso despues de iniciar (en segundos):"
 
 msgid "Autostart"
-msgstr "Auto iniciar"
+msgstr "Autoiniciar"
 
 msgid "Show error notifications"
 msgstr "Mostrar notificaciones de error"
@@ -99,7 +99,7 @@ msgid "Icon theme:"
 msgstr "Tema del icono:"
 
 msgid "Bright"
-msgstr "Brillante"
+msgstr "Claro"
 
 msgid "Dark"
 msgstr "Oscuro"
