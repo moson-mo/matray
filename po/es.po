@@ -90,7 +90,7 @@ msgid "Show error notifications"
 msgstr "Mostrar notificaciones de error"
 
 msgid "Hide icon when all articles were read"
-msgstr "Ocultar icono cuando todos los artículos han sido leído"
+msgstr "Ocultar icono cuando todos los artículos hayan sido leídos"
 
 msgid "Set categories based on branch"
 msgstr "Establecer categoría basado en la rama"
