@@ -1,15 +1,3 @@
-### Service shutdown of `manjaro.moson.eu` is planned for the 23rd of October
-### Currently there is no alternative available so it is recommended to stop using matray
-
-Also see: https://github.com/moson-mo/mnserver/issues/1
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 <img src="https://raw.githubusercontent.com/moson-mo/matray/master/resources/images/matray_logo.png?inline=true"  align="left" width="120" />
 
 # matray
