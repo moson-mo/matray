@@ -61,7 +61,7 @@ msgstr "O programie"
 msgid "Quit"
 msgstr "Zakończ"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux announcements notification app"
 msgstr "Aplikacja do śledzenia newsów w Manjaro Linux"
 
 msgid "Website"

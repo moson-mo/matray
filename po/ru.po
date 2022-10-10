@@ -60,7 +60,7 @@ msgstr "О программе"
 msgid "Quit"
 msgstr "Выйти"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux announcements notification app"
 msgstr "Приложение для оповещения о сообщениях Manjaro Linux"
 
 msgid "Website"
