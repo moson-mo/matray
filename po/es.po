@@ -21,7 +21,7 @@ msgid "Current branch:"
 msgstr "Rama actual:"
 
 msgid "Could not detect branch!"
-msgstr "No se a podido detectar la rama!"
+msgstr "¡No se ha podido detectar la rama!"
 
 msgid "Selected categories"
 msgstr "Categorías seleccionadas"
@@ -42,7 +42,7 @@ msgid "more..."
 msgstr "más..."
 
 msgid "News available!"
-msgstr "Noticias disponibles!"
+msgstr "¡Noticias disponibles!"
 
 msgid "No news"
 msgstr "No hay noticias"
@@ -59,7 +59,7 @@ msgstr "Acerca de"
 msgid "Quit"
 msgstr "Salir"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux anouncements notification app"
 msgstr "Una aplicación de notificaciones sobre anuncios de Manjaro Linux"
 
 msgid "Website"
@@ -84,7 +84,7 @@ msgid "Delay after start (in seconds):"
 msgstr "Retraso despues de iniciar (en segundos):"
 
 msgid "Autostart"
-msgstr "Auto iniciar"
+msgstr "Autoiniciar"
 
 msgid "Show error notifications"
 msgstr "Mostrar notificaciones de error"
