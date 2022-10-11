@@ -137,7 +137,7 @@ namespace ManjaroNews {
 
                 config = (Config) Json.gobject_from_data (typeof (Config), conf);
 
-                // v1.1.3 replace default URL due to service shutdown
+                // v1.1.4 replace default URL due to service shutdown
                 if (config.ServerURL == "http://manjaro.moson.eu:10111/news") {
                     config.ServerURL = "https://manjaro.news/";
                     this.save_config ();

@@ -49,7 +49,7 @@ namespace ManjaroNews {
 
         // default config
         public Config.get_default () {
-            this.Version = "1.1.3";
+            this.Version = "1.1.4";
             this.ServerURL = "https://manjaro.news/";
             this.MaxArticles = 15;
             this.AvailableCategories = new string[] {
