@@ -46,7 +46,7 @@ You can either use the GUI to change the configuration (open "Settings" from the
 ```
 {
 	"Version": "1.0.0"
-	"ServerURL": "http://manjaro.moson.eu:10111/news",
+	"ServerURL": "https://manjaro.news/",
 	"MaxArticles": 15,
 	"AvailableCategories" : [
         "Testing Updates",

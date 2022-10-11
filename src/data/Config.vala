@@ -50,7 +50,7 @@ namespace ManjaroNews {
         // default config
         public Config.get_default () {
             this.Version = "1.1.3";
-            this.ServerURL = "http://manjaro.moson.eu:10111/news";
+            this.ServerURL = "https://manjaro.news/";
             this.MaxArticles = 15;
             this.AvailableCategories = new string[] {
                 "Testing Updates",
