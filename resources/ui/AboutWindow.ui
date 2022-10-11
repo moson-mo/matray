@@ -61,7 +61,7 @@
             <property name="can-focus">False</property>
             <property name="xpad">10</property>
             <property name="ypad">20</property>
-            <property name="label" translatable="yes">A Manjaro Linux accouncements notification app</property>
+            <property name="label" translatable="yes">A Manjaro Linux announcements notification app</property>
           </object>
           <packing>
             <property name="expand">False</property>

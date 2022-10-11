@@ -59,7 +59,7 @@ msgstr "Hakkında"
 msgid "Quit"
 msgstr "Çıkış"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux announcements notification app"
 msgstr "Manjaro Linux duyuru bildirim uygulaması"
 
 msgid "Website"

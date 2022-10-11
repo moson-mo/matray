@@ -60,7 +60,7 @@ msgstr "O aplikácii"
 msgid "Quit"
 msgstr "Ukončiť"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux announcements notification app"
 msgstr "Aplikácia s oznámeniami o novinkách distribúcie Manjaro Linux"
 
 msgid "Website"

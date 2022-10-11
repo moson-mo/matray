@@ -59,7 +59,7 @@ msgstr "Over"
 msgid "Quit"
 msgstr "Afsluiten"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux announcements notification app"
 msgstr "Een Manjaro Linux aankondigings notificatie applicatie"
 
 # literal translations are iffi at best

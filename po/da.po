@@ -59,7 +59,7 @@ msgstr "Om"
 msgid "Quit"
 msgstr "Luk"
 
-msgid "A Manjaro Linux accouncements notification app"
+msgid "A Manjaro Linux announcements notification app"
 msgstr "En notifikations app til Manjaro Linux bekendtgørelser"
 
 msgid "Website"
