@@ -223,7 +223,9 @@ namespace ManjaroNews {
                     var open_action = new SimpleAction ("open-article-" + news_item.GUID, null);
                     open_action.activate.connect ((action) => {
                         try {
-                            Process.spawn_command_line_async ("xdg-open " + news_item.URL);
+                            if (news_item.URL.has_prefix ("https://forum.manjaro.org") || news_item.URL.has_prefix ("https://twitter.com")) {
+                                Process.spawn_command_line_async ("xdg-open " + news_item.URL);
+                            }
                         } catch (Error e) {
                             printerr ("Error spawning process: \n%s\n", e.message);
                         }
@@ -402,7 +404,9 @@ namespace ManjaroNews {
             // when clicked, open browser
             menu_item.activate.connect (() => {
                 try {
-                    Process.spawn_command_line_async ("xdg-open " + item.URL);
+                    if (item.URL.has_prefix ("https://forum.manjaro.org") || item.URL.has_prefix ("https://twitter.com")) {
+                        Process.spawn_command_line_async ("xdg-open " + item.URL);
+                    }
                 } catch (Error e) {
                     printerr ("Error spawning process: \n%s\n", e.message);
                 }

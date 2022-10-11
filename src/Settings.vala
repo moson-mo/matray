@@ -103,6 +103,9 @@ namespace ManjaroNews {
                     var news_item = (NewsItem) Json.gobject_deserialize (typeof (NewsItem), item);
                     list.add (news_item);
                 }
+                list.sort ((a, b) => {
+                    return (int) (b.PublishedDateUnix - a.PublishedDateUnix);
+                });
             } catch (Error e) {
                 printerr ("Error reading items file: \n%s\n", e.message);
             }
@@ -133,6 +136,12 @@ namespace ManjaroNews {
                 FileUtils.get_contents (config_file_path, out conf, null);
 
                 config = (Config) Json.gobject_from_data (typeof (Config), conf);
+
+                // v1.1.3 replace default URL due to service shutdown
+                if (config.ServerURL == "http://manjaro.moson.eu:10111/news") {
+                    config.ServerURL = "https://manjaro.news/";
+                    this.save_config ();
+                }
             } catch (Error e) {
                 printerr ("Error reading config file: \n%s\n", e.message);
                 return false;

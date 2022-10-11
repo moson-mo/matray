@@ -14,12 +14,12 @@ jobs:
     steps:
     - name: Full upgrade
       run: |
-         pacman-mirrors -a -S unstable -U https://manjaro.moson.eu/
+         pacman-mirrors -a -S unstable -U https://mirror.moson.org/manjaro/
          pacman -Syyu --noconfirm
          
     - name: Install Dependencies
       run: |
-        pacman -S vala meson noto-fonts libgee libappindicator-gtk3 --noconfirm
+        pacman -S vala meson noto-fonts libgee libappindicator-gtk3 libsoup --noconfirm
         
     - uses: actions/checkout@v2
     - name: Build

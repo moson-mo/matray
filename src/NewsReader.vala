@@ -173,17 +173,30 @@ namespace ManjaroNews {
                 // parse json and add news item is not yet in list
                 try {
                     var new_items = Json.from_string ((string) msg.response_body.data).get_array ();
-
+                    var found = new ArrayList<NewsItem> ((a, b) => {
+                        return a.GUID == b.GUID;
+                    });
+                    var to_remove = new ArrayList<NewsItem> ();
+                    
                     foreach (var item_element in new_items.get_elements ()) {
                         var new_item = (NewsItem) Json.gobject_deserialize (typeof (NewsItem), item_element);
                         var date = new DateTime.from_iso8601 (new_item.PublishedDate, tz);
                         new_item.PublishedDateUnix = date.to_unix ();
+                        found.add (new_item);
 
                         if (!news_items.contains (new_item)) {
-                            news_items.add (new_item);
+                            news_items.add (new_item); 
                         }
                     }
-                    remove_unmatched_items ();
+                    
+                    // remove all entries that do not exists anymore
+                    foreach(var item in news_items) {
+                        if (!found.contains (item)) {
+                            to_remove.add (item);
+                        }
+                    }
+                    news_items.remove_all (to_remove);
+                    
                     news_fetched ();
                 } catch (Error err) {
                     printerr (err.message);
