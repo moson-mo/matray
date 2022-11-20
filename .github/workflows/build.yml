@@ -10,6 +10,7 @@ jobs:
     
     container:
       image: manjarolinux/base:latest
+      options: --security-opt seccomp=unconfined
     
     steps:
     - name: Full upgrade
